@@ -3,6 +3,6 @@ const withCSS = require('@zeit/next-css');
 
 module.exports = withCSS({
 	env: {
-		mongodb_url: process.env.MONGODB_URL
+		MONGODB_URL: process.env.MONGODB_URL
 	}
 });

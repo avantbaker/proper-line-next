@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const uri = process.env.mongodb_url;
+const uri = process.env.MONGODB_URL;
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
 export default async (req, res) => {
