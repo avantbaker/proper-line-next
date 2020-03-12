@@ -6,6 +6,6 @@
         "use": "@now/next"
     }],
     "env": {
-        "MONGODB_URL": "@mongodb-url"
+        "mongodb_url": "@mongodb-url"
     }
 }
